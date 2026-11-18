@@ -7,7 +7,7 @@ local LLM through [Ollama](https://ollama.com).
 | Step | Module | Concept |
 | --- | --- | --- |
 | 1 | `mini_captain/events.py` | Agents talk through immutable event messages |
-| 2 | event bus | Publish and subscribe |
+| 2 | `mini_captain/bus.py` | Publish and subscribe |
 | 3 | ledger | Append-only, hash-chained log |
 | 4 | decomposer | Ollama splits a problem into tasks |
 | 5 | gatekeeper | Rule checks before work runs |
