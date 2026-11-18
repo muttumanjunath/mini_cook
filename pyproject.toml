@@ -1,0 +1,4 @@
+[tool.pytest.ini_options]
+# Let tests import the mini_captain package from the project folder.
+pythonpath = ["."]
+testpaths = ["tests"]
